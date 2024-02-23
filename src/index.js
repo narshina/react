@@ -5,11 +5,12 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { Nav } from './Nav';
 import { State } from './State';
+import { Useeffect } from './Useeffect';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <State />
+    <Useeffect />
   </React.StrictMode>
 );
 
